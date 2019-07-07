@@ -1,20 +1,29 @@
 {
-	"miniprogramRoot": "miniprogram/",
-	"cloudfunctionRoot": "cloudfunctions/",
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"nodeModules": true,
 		"autoAudits": false,
-		"nodeModules": true
+		"checkInvalidKey": true
 	},
-	"appid": "wx72c3dd73cc2b2fd2",
-	"projectname": "movie-imooc",
+	"compileType": "miniprogram",
 	"libVersion": "2.2.5",
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
+	"appid": "wx1bb3bb2c90215efc",
+	"projectname": "MovieApplet",
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"cloudfunctionTemplateRoot": "",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -32,27 +41,13 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": -1,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
 					"pathName": "pages/databaseGuide/databaseGuide",
 					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "comment",
-					"pathName": "pages/comment/comment",
-					"query": "movieid=30334073",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "profile",
-					"pathName": "pages/profile/profile",
-					"query": "",
-					"scene": null
 				}
 			]
 		}
